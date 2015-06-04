@@ -152,7 +152,7 @@ void loop(void)
   Serial.println("light");
   Serial.println(lightval);
   sendData();
-delay(10000);
+delay(300000);
 }
 
 void sendData(void){
